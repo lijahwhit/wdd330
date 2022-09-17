@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 :root {
-    --color1: ;
-    --color2: ;
+    --background: #1d3c45;
+    --accent1: #d3d3d3;
+    --accent2: #c66b3d;
+    --accent3: #c4a35a;
 }
 
 html {
@@ -9,7 +11,7 @@ font-family: 'PT Sans Narrow', sans-serif;
 }
 
 body {
-  background-color: #213944;
+  background-color: var(--background);
 }
 
 .content {
@@ -21,10 +23,11 @@ body {
 }
 
 a {
-  color: rgb(100, 191, 197);
+  color: var(--accent3);
 }
+
 a:hover {
-  color: rgb(59, 134, 204);
+  color: var(--accent1);
 }
 
 [active="false"], [active="false"] a {
@@ -34,6 +37,7 @@ a:hover {
 ol li {
   list-style: none;
 }
+
 ul li {
   list-style: circle;
   margin-left: 1em;
@@ -43,10 +47,12 @@ li{
   font-size: 1.3em;
   padding: 0.3em;
 }
+
 ul {
   font-size: 0.8em;
   letter-spacing: 0.06em;
 }
+
 ul *  {
   padding-left: 10px;
 }
@@ -55,23 +61,28 @@ ul *  {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.59);
 }
 
-header {
-  background-color: #6d7e23;
-  padding: 30px 10px 10px;
-  align-items: center;
-  text-align:center;
-  margin: 0 auto 2em;
+.profile-image {
     width: 50%;
 }
 
+header {
+    background-color: var(--accent2);
+    padding: 30px 10px 10px;
+    align-items: center;
+    text-align:center;
+    margin: 0 auto 2em;
+    width: 50%;
+    max-width: 600px;
+}
+
 .navigate-home{
-text-align: center;
-width: 25%;
-font-size: 1.3em;
-background-color: #223f4d;
-padding: 10px;
-margin: 0 auto;
-border-radius: 10px;
+    text-align: center;
+    width: 25%;
+    font-size: 1.3em;
+    background-color: #223f4d;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
 }
 
 h1 {
@@ -90,19 +101,19 @@ em {
 }
 
 h2 {
-  color: rgb(221, 156, 118);
+  color: var(--accent3);
 }
 
-footer {
-  background-color: #6d7e23;
+footer p {
+  background-color: var(--accent2);
   padding: 15px;
   margin-top: 2em;
   text-align: center;
   font-size: 1.3em;
   letter-spacing: 0.05em;
   position: fixed;
-  bottom:15px;
-  width: 100%;
+  bottom: 15px;
+  width: 50%;
   max-width: 600px;
 }
 
