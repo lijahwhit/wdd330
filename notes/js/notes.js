@@ -6,7 +6,7 @@ const populate_weekly_notes = () => {
   
     // get elements
     const h2_title = document.querySelector(".notes-title")
-    const p_weekly_notes = document.querySelector(".weekly-notes")
+    const div_weekly_notes = document.querySelector(".weekly-notes")
   
     h2_title.textContent = `Week ${week}`
   
@@ -14,7 +14,7 @@ const populate_weekly_notes = () => {
     .then(response => response.text())
     .then((data) => {
       console.log(data)
-      p_weekly_notes.innerHTML = data
+      div_weekly_notes.innerHTML = data
     })
   
   }

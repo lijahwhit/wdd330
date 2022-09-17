@@ -1,23 +1,11 @@
 <h2> NOTES </h2>
 
-<em>_________________________________________
-   Summary of Week:  
-</em> 
+<h3>Summary of Week:</h3><hr> 
 
+<p>This week, I did not anticipate the amount of work I was going to have with all of my classes. 
+I did not anticipate the fact that I would forget a few key points from past classes. Refreshing 
+has taken some time. That being said, I was unable to </p>
 
+<h3> Questions: </h3>
 
-<em>_________________________________________
-   Questions:  
-</em>  
-
-<em>_________________________________________
-   Goals:  
-</em> 
-
-<em>_________________________________________
-   Helpful links/resources:  
-</em> 
-
-<em>
-- end - 
-</em>
+<p>None this week.</p>

@@ -95,10 +95,6 @@ h1 {
   margin: 5px;
 }
 
-.weekly-notes{
-  white-space: pre;
-}
-
 em {
   font-style: normal;
   font-size: large;
@@ -106,6 +102,7 @@ em {
 
 h2 {
   color: var(--accent3);
+  margin: 0px;
 }
 
 #navigate-to-portfolio-home{

@@ -16,7 +16,7 @@ const links = [
         assignments: [
           {
             label: "Week 2 notes",
-            url: "notes/weeks/week2.html",
+            url: "notes/notes.html?week=2",
           },
         ]
       },
@@ -26,7 +26,7 @@ const links = [
         assignments: [
           {
             label: "Week 3 notes",
-            url: "notes/weeks/week3.html",
+            url: "notes/notes.html?week=3",
           },
         ]
       },
