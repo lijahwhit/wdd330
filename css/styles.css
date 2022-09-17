@@ -6,6 +6,7 @@
     --accent3: #c4a35a;
 }
 
+
 html {
 font-family: 'PT Sans Narrow', sans-serif;
 }
@@ -67,12 +68,16 @@ ul *  {
 
 header {
     background-color: var(--accent2);
-    padding: 30px 10px 10px;
     align-items: center;
     text-align:center;
     margin: 0 auto 2em;
     width: 50%;
     max-width: 600px;
+    padding: 15px;
+}
+
+header img {
+    border-radius: 10px;
 }
 
 .navigate-home{
@@ -95,7 +100,6 @@ h1 {
 }
 
 em {
-  color:rgb(255, 246, 118);
   font-style: normal;
   font-size: large;
 }
@@ -104,19 +108,41 @@ h2 {
   color: var(--accent3);
 }
 
-footer p {
-  background-color: var(--accent2);
-  padding: 15px;
-  margin-top: 2em;
-  text-align: center;
-  font-size: 1.3em;
-  letter-spacing: 0.05em;
-  position: fixed;
-  bottom: 15px;
-  width: 50%;
-  max-width: 600px;
+#navigate-to-portfolio-home{
+    text-align: center;
+    width: 25%;
+    font-size: 1.3em;
+    background-color: var(--accent3);
+    padding: 10px;
+    margin: 1em auto;
+    border-radius: 10px;
+    border: 1px solid white;
+  }
+
+#navigate-to-portfolio-home a{
+    color: var(--accent1);
+  }
+
+#navigate-to-portfolio-home a:hover{
+    color: white;
+  }
+
+
+footer {
+    position: fixed;
+    bottom: -50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 710px;
 }
 
+footer p {
+    text-align: center;
+    background-color: var(--accent2);
+    padding: 15px;
+    font-size: 1.3em;
+    letter-spacing: 0.05em;
+}
 
 .emphasized { 
   font-style: italic;

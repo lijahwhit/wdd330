@@ -6,7 +6,7 @@ const links = [
       assignments: [
         {
           label: "Week 1 notes",
-          url: "notes/weeks/week1.html",
+          url: "notes/notes.html?week=1",
         },
       ]
     },
