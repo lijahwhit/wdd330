@@ -5,9 +5,13 @@ const links = [
       active: "true",
       assignments: [
         {
-          label: "Week 1 notes",
+          label: "Week 1 Notes",
           url: "notes/notes.html?week=1",
         },
+        {
+          label: "Week 1 Code",
+          url: "practice/week1/story_editor.html",
+        }
       ]
     },
     {
