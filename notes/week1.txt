@@ -1,10 +1,18 @@
-<h2> NOTES </h2>
+<h2>NOTES</h2>
 
 <h3>Summary of Week:</h3><hr> 
 
 <p>This week, I did not anticipate the amount of work I was going to have with all of my classes. 
 I did not anticipate the fact that I would forget a few key points from past classes. Refreshing 
-has taken some time. That being said, I was unable to </p>
+has taken some time. That being said, I was unable to finish everything in a timely manner.</p>
+
+<p>I enjoyed the reading from this week. I've always wondered how local storage worked. I never really
+set aside the time to actually learn about it. Now that I have, I am grateful I learned it now. 
+There is a lot that I can now do with this knowledge. Things I wished I knew how to do on the fly a few
+months ago.</p>
+
+<p>I also enjoyed the videos. I myself have always worked from building the mobile version of a webiste,
+to the larger screen sizes. The mobile version always has a fantastic foundation to work with.</p>
 
 <h3> Questions: </h3>
 
