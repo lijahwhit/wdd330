@@ -62,10 +62,6 @@ ul *  {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.59);
 }
 
-.profile-image {
-    width: 50%;
-}
-
 header {
     background-color: var(--accent2);
     align-items: center;
@@ -78,6 +74,7 @@ header {
 
 header img {
     border-radius: 10px;
+    width: 50%;
 }
 
 .navigate-home{
