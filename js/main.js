@@ -16,7 +16,7 @@ const links = [
     },
     {
         week: "Week 2",
-        active: "false",
+        active: "true",
         assignments: [
           {
             label: "Week 2 notes",
