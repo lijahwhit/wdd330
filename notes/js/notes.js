@@ -8,7 +8,7 @@ const populate_weekly_notes = () => {
     const h2_title = document.querySelector(".notes-title")
     const div_weekly_notes = document.querySelector(".weekly-notes")
   
-    h2_title.textContent = `Week ${week}`
+    h2_title.textContent = `Week ${week} Notes`
   
     fetch(`week${week}.txt`)
     .then(response => response.text())
