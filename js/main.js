@@ -26,7 +26,7 @@ const links = [
       },
       {
         week: "Week 3",
-        active: "false",
+        active: "true",
         assignments: [
           {
             label: "Week 3 notes",

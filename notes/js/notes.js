@@ -10,7 +10,7 @@ const populate_weekly_notes = () => {
   
     h2_title.textContent = `Week ${week} Notes`
   
-    fetch(`week${week}.txt`)
+    fetch(`weeks/week${week}.html`)
     .then(response => response.text())
     .then((data) => {
       console.log(data)
