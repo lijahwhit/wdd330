@@ -36,114 +36,19 @@ const links = [
       },
       {
         week: "Week 4",
-        active: "false",
+        active: "true",
         assignments: [
           {
             label: "Week 4 notes",
-            url: "notes/weeks/week4.html",
+            url: "notes/notes.html?week=4",
           },
-        ]
-      },
-      {
-        week: "Week 5",
-        active: "false",
-        assignments: [
           {
-            label: "Week 5 notes",
-            url: "notes/weeks/week5.html",
-          },
+            label: "Week 4 Code",
+            url: "practice/week4/marvelQuiz.html",
+          }
         ]
-      },
-      {
-        week: "Week 6",
-        active: "false",
-        assignments: [
-          {
-            label: "Week 6 notes",
-            url: "notes/weeks/week6.html",
-          },
-        ]
-      },
-      {
-        week: "Week 7",
-        active: "false",
-        assignments: [
-          {
-            label: "Week 7 notes",
-            url: "notes/weeks/week7.html",
-          },
-        ]
-      },
-      {
-        week: "Week 8",
-        active: "false",
-        assignments: [
-          {
-            label: "Week 8 notes",
-            url: "notes/weeks/week8.html",
-          },
-        ]
-      },
-      {
-        week: "Week 9",
-        active: "false",
-        assignments: [
-          {
-            label: "Week 9 notes",
-            url: "notes/weeks/week9.html",
-          },
-        ]
-      },
-      {
-        week: "Week 10",
-        active: "false",
-        assignments: [
-          {
-            label: "Week 10 notes",
-            url: "notes/weeks/week10.html",
-          },
-        ]
-      },
-      {
-        week: "Week 11",
-        active: "false",
-        assignments: [
-          {
-            label: "Week 11 notes",
-            url: "notes/weeks/week11.html",
-          },
-        ]
-      },
-      {
-        week: "Week 12",
-        active: "false",
-        assignments: [
-          {
-            label: "Week 12 notes",
-            url: "notes/weeks/week12.html",
-          },
-        ]
-      },
-      {
-        week: "Week 13",
-        active: "false",
-        assignments: [
-          {
-            label: "Week 13 notes",
-            url: "notes/weeks/week13.html",
-          },
-        ]
-      },
-      {
-        week: "Week 14",
-        active: "false",
-        assignments: [
-          {
-            label: "Week 14 notes",
-            url: "notes/weeks/week14.html",
-          },
-        ]
-      },
+      }
+
 
 
   ]
