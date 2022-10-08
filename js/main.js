@@ -39,10 +39,6 @@ const links = [
         active: "true",
         assignments: [
           {
-            label: "Week 4 notes",
-            url: "notes/notes.html?week=4",
-          },
-          {
             label: "Week 4 Code",
             url: "practice/week4/marvelQuiz.html",
           }

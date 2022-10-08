@@ -1,0 +1,55 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.board {
+    border-radius: 2%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.horizontal {
+    justify-self: center;
+    grid-row: 2;
+    grid-column: 1/4;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    width: 300px;
+    height: 100px;
+}
+
+.vertical {
+    justify-self: center;
+    grid-row: 1/4;
+    grid-column: 2;
+    border-right: solid black 2px;
+    border-left: solid black 2px;
+    width: 100px;
+    height: 300px;
+}
+
+
+div p {
+    text-align: center;
+}
