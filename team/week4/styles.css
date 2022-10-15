@@ -17,10 +17,18 @@ body {
 	}
 }
 
+#board {
+    margin: auto;
+    display: grid;
+    width: 150px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
 #b1, #b2, #b3, #b4, #b5,
 #b6, #b7, #b8, #b9 {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     margin: auto;
     border: 1px solid gray;
     border-radius: 6px;
@@ -36,9 +44,7 @@ body {
     border: 1px solid rgba(0,0,0,0);
     margin: auto;
     border-radius: 4px;
-    font-family: Verdana,
-        Geneva, Tahoma, sans-serif;
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgba(0,0,0,0);
     color: white;
     font-size: 20px;
