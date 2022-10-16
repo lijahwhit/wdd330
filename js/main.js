@@ -43,6 +43,16 @@ const links = [
             url: "practice/week4/marvelQuiz.html",
           }
         ]
+      },
+      {
+        week: "Week 5",
+        active: "true",
+        assignments: [
+          {
+            label: "Week 5 notes",
+            url: "notes/notes.html?week=5",
+          }
+        ]
       }
 
 
