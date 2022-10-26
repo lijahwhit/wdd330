@@ -60,7 +60,7 @@ const links = [
         assignments: [
           {
             label: "Week 6 To Do Project",
-            url: "projects/toDo/index.html",
+            url: "toDo/index.html",
           }
         ]
       }
