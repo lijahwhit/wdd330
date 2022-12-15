@@ -115,8 +115,6 @@ const links = [
         ]
       }
 
-
-
   ]
   
   const populate_assignments_list = () => {
