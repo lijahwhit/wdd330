@@ -109,7 +109,7 @@ const links = [
         active: "true",
         assignments: [
           {
-            label: "Week 8 Notes",
+            label: "Final Project",
             url: "final/index.html",
           }
         ]
