@@ -83,6 +83,36 @@ const links = [
             url: "notes/notes.html?week=8",
           }
         ]
+      },
+      {
+        week: "Week 9",
+        active: "true",
+        assignments: [
+          {
+            label: "Week 9 Notes",
+            url: "notes/notes.html?week=9",
+          }
+        ]
+      },
+      {
+        week: "Week 10",
+        active: "true",
+        assignments: [
+          {
+            label: "Week 10 Notes",
+            url: "notes/notes.html?week=10",
+          }
+        ]
+      },
+      {
+        week: "Final Project",
+        active: "true",
+        assignments: [
+          {
+            label: "Week 8 Notes",
+            url: "final/index.html",
+          }
+        ]
       }
 
 
