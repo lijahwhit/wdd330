@@ -96,9 +96,10 @@ function inputChange() {
                 document.getElementById('icon').style.backgroundColor = "darkgray";
             }
             // titleDiv.innerHTML = `<div id='initialLoad'>${data.main.temp}°F</div>`
-            weather();
+            sunSky();
             return fetch(`https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`)
         })
+
         .then(response => {
             if (response.ok) {
                 document.getElementById('icon').style.visibility = 'visible';
@@ -111,6 +112,7 @@ function inputChange() {
             document.getElementById('tempIcon').src = URL.createObjectURL(img);
         })
         .catch(error => console.log('There was an error:', error))
+
 }
 
 
@@ -270,7 +272,7 @@ function sunSky() {
             } else {
                 alertOutput.innerHTML = `<h2>${data.alerts[0].description}</h2>`;
             }
-            let output = `<h2 class="mb-4">Sun Conditions for ${cityname} </h2>`;
+            let output = `<h2 class="mb-4">UV Index for ${cityname} </h2>`;
             titleDiv.innerHTML = output +=
                 `                
                 <div class='explain' style="color:red;">
